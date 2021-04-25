@@ -390,7 +390,7 @@ for x in inputs:
     temp1=x.split()
     for i in range(1,len(temp1),1):
         shit,temp1[i]=temp1[i].split(':')
-        temp1[i],shit=temp1[i].split('.')
+        #temp1[i],shit=temp1[i].split('.')
         #temp1[i]=temp1[i][0:6:]
     temp1[0],temp1[len(temp1)-1]=temp1[len(temp1)-1],temp1[0]
     if (temp1[len(temp1)-1])!='-1':
