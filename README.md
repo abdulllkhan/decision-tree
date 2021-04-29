@@ -7,7 +7,7 @@ This decision tree classifier does not use libraries like scikitlearn, numpy and
 
 Example input is:
 
-<img src="/images/input.png">
+<img src="images/input.png">
 
 The first column is the input, and the remaining columns follow the format [attribute_label] : [attribute_value]. If the label == -1 the row is added to the testing dataset, all other rows are added to training dataset.
 The attribute values are categorical.
