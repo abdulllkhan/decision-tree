@@ -7,16 +7,7 @@ This decision tree classifier does not use libraries like scikitlearn, numpy and
 
 Example input is:
 
-1 0:a 2:a 3:d
-1 0:a 2:b 3:d
-1 0:b 2:a 3:d
-3 0:b 2:b 3:d
-1 0:c 2:a 3:d
-3 0:c 2:b 3:d
-3 0:c 2:c 3:d
-3 0:d 2:c 3:d
--1 0:a 2:b 3:d
--1 0:d 2:a 3:d
+<img src="images/input.png">
 
 The first column is the input, and the remaining columns follow the format [attribute_label] : [attribute_value]. If the label == -1 the row is added to the testing dataset, all other rows are added to training dataset.
 The attribute values are categorical.
