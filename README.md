@@ -1,5 +1,5 @@
 # Decision Tree
-Decision tree classifier created without using any powerful library functions.
+Decision tree classifier created without using any powerful library functions. Works only on string or discrete values.
 
 This decision tree classifier does not use libraries like scikitlearn, numpy and pandas. 
 
